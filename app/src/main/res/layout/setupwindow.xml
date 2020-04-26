@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About BrushCoach"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/about_app"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setup"
+        android:textColor="@color/colorNeonBlue"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_1"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Training"
+        android:textColor="@color/colorNeonYellow"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_2"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_3"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_4"
+        android:textColor="@color/colorWhite"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_5"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brushing"
+        android:textColor="@color/colorNeonRed"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_6"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:paddingVertical="2dp"
+        android:textStyle="normal"
+        android:textSize="14dp"
+        android:text="@string/usage_7"
+        android:textColor="@color/colorWhite"/>
+</LinearLayout>

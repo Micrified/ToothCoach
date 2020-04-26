@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToothCoach</string>
+    <string name="about_app">ToothCoach is a toothbrush accessory that improves oral hygiene using sensor feedback. Cues are delivered by the device actuators, and telemetry collected via the sensors. </string>
+    <string name="usage_1">Turn on the device, and attach it to your toothbrush. Press the button to begin the brief training step</string>
+    <string name="usage_2">1. Brush the lower-left teeth, change to lower-right on the beep</string>
+    <string name="usage_3">2. Brush your lower-right teeth, change to upper-left on the beep</string>
+    <string name="usage_4">3. Brush your upper-left teeth, change to upper-right on the beep</string>
+    <string name="usage_5">4. Brush your upper-right teeth. After the final beep, start your normal brushing!</string>
+    <string name="usage_6">Brush each quadrant of your mouth for approximately 30s. A beep will indicate when 30s has elapsed!</string>
+    <string name="usage_7">If open and connected, the phone will show real-time information. The statistics are sent at the end. </string>
+</resources>
