@@ -8,6 +8,7 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.bluetooth.BluetoothGattService;
 import android.bluetooth.BluetoothManager;
+import android.bluetooth.le.BluetoothLeScanner;
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;
 import android.content.Context;
@@ -354,7 +355,13 @@ public class DeviceBluetoothManager {
         }
         this.scan_results_checked = 0;
         this.device_name = identifier;
-        this.bluetoothAdapter.getBluetoothLeScanner().startScan(getScanCallback());
+        BluetoothLeScanner leScanner = this.bluetoothAdapter.getBluetoothLeScanner();
+        while (leScanner == null) {
+            leScanner = this.bluetoothAdapter.getBluetoothLeScanner();
+        }
+
+        leScanner.startScan(getScanCallback());
+
     }
 
     /* @brief: Attempts to connect to a Bluetooth LE device

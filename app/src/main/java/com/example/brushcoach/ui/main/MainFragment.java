@@ -320,6 +320,15 @@ public class MainFragment extends Fragment implements View.OnClickListener, Devi
         // Log message
         Log.i("onBluetoothConnect", "Outcome = " + didSucceed);
 
+        // Reset everything in preparation for brush mode
+        if (didSucceed) {
+            MainFragment.this.measure_progress_general.setValue(0);
+            this.measure_low_left.setValue(0);
+            this.measure_low_right.setValue(0);
+            this.measure_top_left.setValue(0);
+            this.measure_top_right.setValue(0);
+        }
+
         // Update the user interface
         this.button_toggle_bluetooth.setIsActive((this.connected = didSucceed));
         refresh(true);
